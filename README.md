@@ -19,20 +19,20 @@ Para usar el script `BoxSearcher.sh`, sigue estos pasos:
 
 1. **Clonar el Repositorio**:
 
-    ```bash
+    ```
     git clone https://github.com/Riieiro/BoxSearcher
     cd BoxSearcher
     ```
 
 2. **Dar Permisos de Ejecución al Script**:
 
-   ```bash
+   ```
     chmod +x BoxSearcher.sh
     ```
 
 3. **Ejecutar el Script**:
  
-    ```bash
+    ```
     sudo ./BoxSearcher.sh
     ```
 
@@ -49,35 +49,35 @@ A continuación, un ejemplo de cómo se podría utilizar el script:
 
 Para empezar a útilizar la herramienta por primera vez necesitaremos instalar unos archivos necesarios de la página https://htbmachines.github.io/
     
-    ```bash
+    ```
     ./BoxSearcher.sh -a
     ```
 ![image](https://github.com/user-attachments/assets/4a22e25f-0779-44ea-8de2-cb04cba636ae)
 
 Una vez instalado los archivos necesarios podemos ver las opciones:
     
-    ```bash
+    ```
     ./BoxSearcher.sh -h
     ```
 ![image](https://github.com/user-attachments/assets/f69d3169-13ac-4aa2-9379-372f6ba7d480)
 
 1. Búsqueda por nombre de máquina
 
-   ```bash
+   ```
     ./BoxSearcher.sh -m <Nombre de la máquina>
     ```
 ![image](https://github.com/user-attachments/assets/09b32a31-36ff-4fd9-a85e-ddfe6db8027b)
 
 2. Búsqueda por sistema operativo
 
-    ```bash
+    ```
     ./BoxSearcher.sh -o <Sistema operativo>
     ```
 ![image](https://github.com/user-attachments/assets/70d4e46d-301d-4a79-bf56-8f0cfd779379)
 
 3. Búsqueda por dificultad
 
-    ```bash
+    ```
     ./BoxSearcher.sh -d <Dificultad>
     ```
 
@@ -85,7 +85,7 @@ Una vez instalado los archivos necesarios podemos ver las opciones:
 
 4. Búsqueda por skill
 
-    ```bash
+    ```
     ./BoxSearcher.sh -s <"Skill">
     ```
 
@@ -93,7 +93,7 @@ Una vez instalado los archivos necesarios podemos ver las opciones:
 
 5. Búsqueda por dificultad y sistema operativo
 
-    ```bash
+    ```
     ./BoxSearcher.sh -d <Dificultad> -o <Sistema operativo>
     ```
 ![image](https://github.com/user-attachments/assets/bd089213-3230-4e97-8ece-fb948ffab939)
