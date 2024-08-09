@@ -49,16 +49,16 @@ A continuación, un ejemplo de cómo se podría utilizar el script:
 
 Para empezar a útilizar la herramienta por primera vez necesitaremos instalar unos archivos necesarios de la página https://htbmachines.github.io/
     
-    ```
+    
     ./BoxSearcher.sh -a
-    ```
+
 ![image](https://github.com/user-attachments/assets/4a22e25f-0779-44ea-8de2-cb04cba636ae)
 
 Una vez instalado los archivos necesarios podemos ver las opciones:
     
-    ```
+    
     ./BoxSearcher.sh -h
-    ```
+    
 ![image](https://github.com/user-attachments/assets/f69d3169-13ac-4aa2-9379-372f6ba7d480)
 
 1. Búsqueda por nombre de máquina
